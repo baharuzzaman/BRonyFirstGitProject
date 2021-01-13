@@ -18,18 +18,18 @@ Feature: Myntra Login Feature
     Given Customer launch in Myntra home page < https://www.myntra.com/>
     When Customer mousehover to profile
     And Customer clicks on loginorSignup
-  	When Customer put correct Phonenumber "<phonenumber>"
+  	When Customer put correct Phonenumber "phonenumber"
   	And Customer clicks on continue Btn
     And Customer clicks on password Btn
-    And Customer put wrong password "<password>"
+    And Customer put wrong password "password"
   	Then Customer clicks on LogIn button
   	
 
     Examples: 
-      |Phone number|password  |
-      |8076159467  |Masud@123 |
-      |8076159467  |Shahi@123 |
-      |8076159467  |Dikesh@123| 
+      |Phonenumber|password  |
+      |8076159467 |Masud@123 |
+      |8076159467 |Shahi@123 |
+      |8076159467 |Dikesh@123| 
     
  
 

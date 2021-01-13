@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>TeamRobloxBDDProject</groupId>
-	<artifactId>TeamRobloxBDDProject</artifactId>
+	<groupId>TeamRoblox</groupId>
+	<artifactId>TeamRoblox</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<developers>
 		<developer>
-			<id>TeamRobloxBDDProject</id>
-			<name>TeamRobloxBDDProject</name>
+			<id>Rony</id>
+			<name>Rony</name>
 			<organization>TalenTech</organization>
 			<organizationUrl>http://www.talentech.com</organizationUrl>
 			<roles>
@@ -93,6 +93,9 @@
 
 	</dependencies>
 
+
+
+
 	<build>
 		<!-- <sourceDirectory>src/test/java</sourceDirectory> -->
 
@@ -111,7 +114,7 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<includes>
-						<include>**/UPSTestRunner.java</include>
+						<include>**/FindaDoctorRunner.java</include>
 					</includes>
 					<testFailureIgnore>true</testFailureIgnore>
 					<excludes>

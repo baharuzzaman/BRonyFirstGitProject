@@ -8,7 +8,6 @@ Given Customer lands on Myntra homepage < https://www.myntra.com/>
 When Customer mouse over the men
 And Customer click on T-shirt
 And Customer click on men
-And Customer click on Puma
 And customer click on Printed Round Neck T-shirt
 And Customer select the M size
 And customer click on add to bag

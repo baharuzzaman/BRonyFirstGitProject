@@ -36,15 +36,6 @@ public class MyntraLoginAction {
 
 	}
 
-	/*
-	 * public void navigateToMenMenu() throws InterruptedException { Actions action
-	 * = new Actions(SetupDriver.chromeDriver);
-	 * action.moveToElement(myntraLoginElements.profile); action.perform();
-	 * Thread.sleep(4000);
-	 * 
-	 * }
-	 */
-
 	public void navigateToProfileMenu() {
 		Actions action = new Actions(SetupDriver.chromeDriver);
 		action.moveToElement(myntraLoginElements.profile);
@@ -60,9 +51,6 @@ public class MyntraLoginAction {
 		action.perform();
 	}
 
-	/*
-	 * public void LoginorSignup() { myntraLoginElements.LoginorSignup.click(); }
-	 */
 
 	public void inputPhoneNumber(String phonenumber) {
 		myntraLoginElements.phonenumber.sendKeys(phonenumber);

@@ -1,11 +1,12 @@
-Feature: Update account information
-As a user I want to Update my account information
+Feature: verify Update account information
+This feature is for updating customer information
+
 
 Scenario: Verifying customer able to Update account information successfully
-Given I land on Myntra homepage < https://www.myntra.com/>
-When I hover over to profile
-And I click on Edit profile from dropdown
-And I click on Email box
-And I write my Email
-And I click on save details
-Then my information will update successfully
+Given Customer land on Myntra homepage < https://www.myntra.com/>
+When Customer mousehover to profile
+And customer click on Edit profile from dropdown
+And customer click on Email box
+And customer write Email
+And Customer click on save details
+Then Customer information should be updated successfully
